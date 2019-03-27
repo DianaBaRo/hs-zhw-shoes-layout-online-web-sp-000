@@ -40,7 +40,7 @@
   padding: 10px;
 }
 
-.third-row {
+#third-row {
   column-count: 3;
   column-gap: 20px;
   padding: 10px;
