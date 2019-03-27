@@ -24,24 +24,20 @@
 
 /* Positioning Classes */
 
-.first-row {
-  column-count: 3;
-  column-gap: 20px;
-  padding: 10px;
+.row {
+    clear: both;
+    margin-bottom: 2%;
+  }
+
+[class*="col-"] {
+    float: left;
+    margin-left: 2%;
 }
 
-#featured-image {
-  column-span: 2;
+[class*="col-"]:first-child {
+    margin-left: 0;
 }
 
-.second-row {
-  column-count: 3;
-  column-gap: 20px;
-  padding: 10px;
-}
+.col-4 { width: 32%; }
 
-#third-row {
-  column-count: 3;
-  column-gap: 20px;
-  padding: 10px;
-}
+.col-8 { width: 66%; }
